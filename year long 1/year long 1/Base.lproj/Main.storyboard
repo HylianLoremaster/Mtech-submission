@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="21225" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_0" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21207"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="year_long_1" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="download (1)" translatesAutoresizingMaskIntoConstraints="NO" id="Kfu-9e-yUM">
+                                <rect key="frame" x="0.0" y="47" width="390" height="150"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="150" id="Zl2-dk-FcC"/>
+                                </constraints>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="images" translatesAutoresizingMaskIntoConstraints="NO" id="jmk-ig-lnD">
+                                <rect key="frame" x="20" y="122" width="75" height="75"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="75" id="QQG-Ox-O0G"/>
+                                    <constraint firstAttribute="width" constant="75" id="Qn7-8S-nGg"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Jordan Hansen" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="JUt-9d-NI0">
+                                <rect key="frame" x="20" y="217" width="350" height="30"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="25"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Likes: Any game console, tech designed for those with disabilities." textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eiP-gp-qxi">
+                                <rect key="frame" x="20" y="267" width="350" height="40.666666666666686"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Dislikes: Anything that can bring harm to others, including physical, mental, or emotional." textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ql6-DY-pqK">
+                                <rect key="frame" x="20" y="327.66666666666669" width="350" height="61"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4Wu-cZ-eLG">
+                                <rect key="frame" x="20" y="408.66666666666669" width="350" height="81.333333333333314"/>
+                                <string key="text">Tech company likes: Nintendo, purely for the amazing series they have created. The Legend of Zelda is the best thing to happen to mankind.</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="I recently got to design a calculator app, if anyone's interested. I can send you a link to the project if you message me." textAlignment="right" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yMx-mq-VUP">
+                                <rect key="frame" x="20" y="766" width="350" height="24"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="10"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="ql6-DY-pqK" firstAttribute="top" secondItem="eiP-gp-qxi" secondAttribute="bottom" constant="20" id="0Mp-Ta-GVL"/>
+                            <constraint firstItem="jmk-ig-lnD" firstAttribute="top" secondItem="Kfu-9e-yUM" secondAttribute="bottom" constant="-75" id="4Gn-ko-oE1"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="JUt-9d-NI0" secondAttribute="trailing" constant="20" id="62e-J1-7Hq"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="ql6-DY-pqK" secondAttribute="trailing" constant="20" id="6d1-ce-CQS"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="Kfu-9e-yUM" secondAttribute="trailing" id="98x-Cr-EJm"/>
+                            <constraint firstItem="eiP-gp-qxi" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="Ca7-PI-cEq"/>
+                            <constraint firstItem="4Wu-cZ-eLG" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="HIT-dB-Kwl"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="eiP-gp-qxi" secondAttribute="trailing" constant="20" id="JC4-yF-Pbk"/>
+                            <constraint firstItem="4Wu-cZ-eLG" firstAttribute="top" secondItem="ql6-DY-pqK" secondAttribute="bottom" constant="20" id="K6X-sr-JLn"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="4Wu-cZ-eLG" secondAttribute="trailing" constant="20" id="M7W-UU-ejb"/>
+                            <constraint firstItem="JUt-9d-NI0" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="Mx5-na-6n0"/>
+                            <constraint firstItem="ql6-DY-pqK" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="Nut-2s-wmP"/>
+                            <constraint firstItem="Kfu-9e-yUM" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="Oer-Yr-fbd"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="yMx-mq-VUP" secondAttribute="trailing" constant="20" id="PeY-zw-NRJ"/>
+                            <constraint firstItem="eiP-gp-qxi" firstAttribute="top" secondItem="JUt-9d-NI0" secondAttribute="bottom" constant="20" id="QGL-Kd-CIH"/>
+                            <constraint firstItem="yMx-mq-VUP" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="VZj-10-n2G"/>
+                            <constraint firstItem="JUt-9d-NI0" firstAttribute="top" secondItem="Kfu-9e-yUM" secondAttribute="bottom" constant="20" id="Wut-1Z-vPz"/>
+                            <constraint firstItem="jmk-ig-lnD" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="XMA-dM-Lp5"/>
+                            <constraint firstItem="Kfu-9e-yUM" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="buG-UN-SB7"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="yMx-mq-VUP" secondAttribute="bottom" constant="20" id="gTD-07-m1D"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="118" y="4"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="download (1)" width="275" height="183"/>
+        <image name="images" width="249" height="202"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>
